@@ -17,6 +17,8 @@ jobs:
       run: chmod +x gradlew
     - name: Build with Gradle
       run: ./gradlew build
+    - name: idk
+      run: tree
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
