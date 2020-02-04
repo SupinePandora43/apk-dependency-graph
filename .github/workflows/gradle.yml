@@ -20,4 +20,5 @@ jobs:
     - name: Upload artifact
       uses: actions/upload-artifact@v1.0.0
       with:
-        path: build/jar/apk-dependency-graph.jar
+        name: build 
+        path: build/jar
